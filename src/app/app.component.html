@@ -1,0 +1,20 @@
+<!-- <app-product></app-product> -->
+<div *ngFor="let number of arr">{{number}}</div>
+<div class="row form-group">
+    <div class="col-md-6">1</div>
+    <div class="col-md-6">2</div>
+</div>
+<div *ngIf="show">
+    Code show
+</div>
+<div *ngFor="let data of arrData">
+    <div>{{data.yeucau.thoiGianKham}}</div>
+    <!-- <app-product [data]="data"></app-product> -->
+</div>
+{{userName}}
+
+<div><button (click)="setName()">Change Name</button></div>
+<!-- <app-layout></app-layout> -->
+<div *ngFor="let name of dataJson.result.dashBoardItems">
+    <div>{{name.demand.hospitalName}}</div>
+</div>
