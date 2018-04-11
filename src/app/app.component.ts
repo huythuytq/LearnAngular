@@ -12,52 +12,7 @@ export class AppComponent implements OnInit {
   title = 'app';
   arr = [1, 2, 3];
   dataJson = require('./data.json');
-  arrData = [
-    {
-      yeucau: {
-        thoiGianKham: '12/03/2018',
-        noiKham: 'Phòng khám Chac',
-        dichVu: [
-          'Gói Carenefit 3 - Tổng quát nâng cao Nam: 03',
-          'Na, K, Cl (mẫu thử - 24h): 03',
-          'Nhân viên hướng dẫn: 02'
-        ]
-      },
-      hopdong: {
-        sotien: '9,396,000',
-        datcoc: '2,818,800'
-      }
-    },
-    {
-      yeucau: {
-        thoiGianKham: '12/03/2018',
-        noiKham: 'Phòng khám Chac',
-        dichVu: [
-          'Gói Carenefit 3 - Tổng quát nâng cao Nam: 03',
-          'Na, K, Cl (mẫu thử - 24h): 03',
-          'Nhân viên hướng dẫn: 02'
-        ]
-      },
-      hopdong: {
-        sotien: '9,396,000',
-        datcoc: '2,818,800'
-      }
-    }, {
-      yeucau: {
-        thoiGianKham: '12/03/2018',
-        noiKham: 'Phòng khám Chac',
-        dichVu: [
-          'Gói Carenefit 3 - Tổng quát nâng cao Nam: 03',
-          'Na, K, Cl (mẫu thử - 24h): 03',
-          'Nhân viên hướng dẫn: 02'
-        ]
-      },
-      hopdong: {
-        sotien: '9,396,000',
-        datcoc: '2,818,800'
-      }
-    }
-  ];
+  
   show = 'a';
   dateString = '4/4/2017';
   dateTimestamp;
